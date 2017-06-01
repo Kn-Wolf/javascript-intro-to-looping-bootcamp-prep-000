@@ -4,22 +4,22 @@ for (let i = 0; i < 25; i++) {
    array.push("I am 1 strange loop");
  } else {
    array.push(`I am ${i} strange loop`);
-}} return array
+}} return array;
 }
 
 function whileLoop(n) {
 while (n > 0) {
   console.log(n);
   n--;
-} return ("done")
+} return ("done");
 }
 
 function doWhileLoop(array){
   function maybeTrue() {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
   do {
-    array.pop()
+    array.pop();
   } while (array.length > 0 && maybeTrue());
-  return array
+  return array;
 }
